@@ -67,8 +67,8 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "青行灯 我喜欢你啊 "
-sidebar-avatar: /img/touxiang.PNG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "急急如律令 青灯化形！ "
+sidebar-avatar: /img/ban.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -81,7 +81,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "",
-        href: ""
+        title: "小明",
+        href: "....."
     }
 ]
