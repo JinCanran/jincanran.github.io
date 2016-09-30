@@ -16,8 +16,6 @@ RSS: false
 weibo_username:     JinCanran
 zhihu_username:     jin-tai-yang-92
 github_username:    JinCanran
-#twitter_username:  
-#facebook_username:  
 
 
 
@@ -60,10 +58,10 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: JinCanran.github.io
+ga_track_id: 'UA-85012655-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
