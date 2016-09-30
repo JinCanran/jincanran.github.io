@@ -1,5 +1,5 @@
 # Site settings
-title: 小金的学习之路
+title: 平安世界
 SEOTitle: 金灿然的博客 | JinCanran's Blog
 header-img: img/home-bg.jpg
 email: jincanran@gmail.com
@@ -13,8 +13,8 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     大橘子123
-zhihu_username:     金太阳
+weibo_username:     JinCanran
+zhihu_username:     jin-tai-yang-92
 github_username:    JinCanran
 #twitter_username:  
 #facebook_username:  
@@ -69,8 +69,8 @@ ga_domain: JinCanran.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "哪天能拿offer呢"
-sidebar-avatar: /img/touxiang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "青行灯 我喜欢你啊 "
+sidebar-avatar: /img/touxiang.PNG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -83,7 +83,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "XiaoMing",
+        title: "",
         href: ""
     }
 ]
