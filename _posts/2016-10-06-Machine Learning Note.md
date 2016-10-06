@@ -10,9 +10,12 @@ tags:
     - Notes
 ---
 
->  UFLDL教程学习笔记  
+>  UFLDL教程学习笔记    
+
 >> 公式直接使用原教程图片，MarkDown自动换行，不适宜人类阅读  
+  
 >>> 公式太多太长了，等哪天有空再自己写了更新  
+  
 
 ## 1. 神经网络 Neural Networks
 ![fig.1](http://ufldl.stanford.edu/wiki/images/thumb/4/40/Network3322.png/500px-Network3322.png)
