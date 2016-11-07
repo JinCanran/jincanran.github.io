@@ -71,4 +71,4 @@ be worth it
 
 ## 5. EXPERIMENTS
 
-- 留着下次看
+- Python Theano跑出准确率，分析可以减少多少乘法

@@ -52,7 +52,9 @@ operation,同时还能保证预测准确率
         3. 还提出了硬件架构，去实现LCP-based CNN with minimal overhead
 
 ----
+
 ## 2. Related works
+
 ### 2.1 Convolutional neural network
 
 - Here use the max pooling
