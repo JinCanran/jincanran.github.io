@@ -30,6 +30,7 @@ tags:
 
 
 ------
+
 ## 2. PRELIMINARIES
 
 - 人工神经网络简介
@@ -41,7 +42,8 @@ tags:
 
 -------
 
-## 3. PROPOSED DESIGN METHODOLOGY
+## 3. PROPOSED DESIGN METHODOLOGY  
+
 ### 3.1 Neuron Criticality Analysis
 - Critical & Resilient ： 神经元微小的改变造成大的输出质量的下降，那就是critical的神经元，反之就是resilient的神经元
     - 去判断每个神经元的criticality，直观的，我们可以引入随机的error在每个神经元然后看对结果的影响，但是不实际单个神经元对于大型网络来说太渺小了
