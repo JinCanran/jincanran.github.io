@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - CNN
     - Approximate Computing
-    - Note
+    - Paper Reading Note
 ---
 
 >  Lin Z, Courbariaux M, Memisevic R, et al. Neural networks with few multiplications[J]. arXiv preprint arXiv:1510.03009, 2015.

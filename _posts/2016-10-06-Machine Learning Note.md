@@ -7,7 +7,7 @@ author:     "Jin"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Machine Learning
-    - Notes
+    - Study Notes
 ---
 
 >  UFLDL教程学习笔记    

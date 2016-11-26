@@ -6,7 +6,7 @@ date:       2016-09-30
 author:     "Jin"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Paper Reading
+    - Paper Reading Notes
     - Paradigms
 ---
 

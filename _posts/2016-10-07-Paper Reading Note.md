@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - CNN
     - Approximate Computing
-    - Note
+    - Paper Reading Notes
 ---
 
 >  Ujiie T, Hiromoto M, Sato T. Approximated Prediction Strategy for Reducing Power Consumption of Convolutional Neural Network Processor[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops. 2016: 52-58.

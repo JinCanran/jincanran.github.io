@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - Neural Network
     - Approximate Computing
-    - Note
+    - Paper Reading Notes
 ---
 
 >  Zhang Q, Wang T, Tian Y, et al. ApproxANN: an approximate computing framework for artificial neural network[C]//Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition. EDA Consortium, 2015: 701-706.
