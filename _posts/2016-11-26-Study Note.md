@@ -24,7 +24,8 @@ tags:
 
 ## 2. Scan的使用
  
- Theano中的loop，根据文档描述，比for循环快一点点....
+ Theano中的loop，根据文档描述，比for循环快一点点....  
+ 
  >- Advantages of using scan over for loops:
     - Number of iterations to be part of the symbolic graph.
     - Minimizes GPU transfers (if GPU is involved).
@@ -39,7 +40,8 @@ tags:
     theano.scan(fn, sequences=None, outputs_info=None, non_sequences=None, n_steps=None, truncate_gradient=-1, go_backwards=False, mode=None, name=None, profile=False, allow_gc=None, strict=False)
 
  
-首先scan的函数参数的定义以及返回值的使用和theano function基本差不多，参照文档的五个示例代码基本都能学会使用
+首先scan的函数参数的定义以及返回值的使用和theano function基本差不多，参照文档的五个示例代码基本都能学会使用  
+
 1. fn：传入循环调用的函数的名字，可以为匿名函数lambda（不复杂的操作匿名函数直接写在变量之后：的后面）
 2. sequnces： 需要迭代或者遍历的变量，可以传多个，只要顺序和fn函数的最先几个参数能对应上即可
 3. outputs_info： fn输出的初始值，也就是可以在这个这个值上面迭代出最后的结果
