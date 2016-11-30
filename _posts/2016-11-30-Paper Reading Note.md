@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Batch Normalization 学习理解"
-subtitle:   "涉及数学不好理解"
+subtitle:   "Paper Reading Notes"
 date:       2016-11-30
 author:     "Jin"
 header-img: "img/post-bg-2015.jpg"
