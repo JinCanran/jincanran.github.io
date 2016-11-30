@@ -50,7 +50,8 @@ tags:
 
 - 全连接层：  
 
-`  
+`   
+ 
 if self.BN == True:
             
             self.batch_mean = T.mean(z,axis=0)
@@ -75,7 +76,8 @@ if self.BN == True:
 		
 - 卷积层：  
 
-` 
+`  
+ 
 # batch normalization
         if self.BN == True:
             
