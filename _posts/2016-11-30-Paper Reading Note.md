@@ -75,28 +75,30 @@ tags:
 - 卷积层：  
  
 
-    # batch normalization
-    if self.BN == True:
+			# batch normalization
+    			if self.BN == True:
     	
-    	# in the convolutional case, there is only a mean per feature map and not per location
-    	# http://arxiv.org/pdf/1502.03167v3.pdf   
-    	self.batch_mean = T.mean(z,axis=(0,2,3))
-    	self.batch_var = T.var(z,axis=(0,2,3))
+    				# in the convolutional case, there is only a mean per feature map and not per location
+    				# http://arxiv.org/pdf/1502.03167v3.pdf   
+    				self.batch_mean = T.mean(z,axis=(0,2,3))
+    				self.batch_var = T.var(z,axis=(0,2,3))
     			
-    	if can_fit == True:
-    		mean = self.batch_mean
-    		var = self.batch_var
+    				if can_fit == True:
+    					mean = self.batch_mean
+    					var = self.batch_var
     
-    	else:
-    		mean = self.mean
-    		var = self.var
+    				else:
+    					mean = self.mean
+    					var = self.var
     
-    	z = (z - mean.dimshuffle('x', 0, 'x', 'x'))/(T.sqrt(var.dimshuffle('x', 0, 'x', 'x')+self.BN_epsilon))
-    	z = self.a.dimshuffle('x', 0, 'x', 'x') * z
+    				z = (z - mean.dimshuffle('x', 0, 'x', 'x'))/(T.sqrt(var.dimshuffle('x', 0, 'x', 'x')+self.BN_epsilon))
+    				z = self.a.dimshuffle('x', 0, 'x', 'x') * z
     	
-    # bias  
-    z = z + self.b.dimshuffle('x', 0, 'x', 'x')
+    			# bias  
+    			z = z + self.b.dimshuffle('x', 0, 'x', 'x')
     
-    # activation  
-    y = self.activation(z)
-
+    			# activation  
+    			y = self.activation(z)  
+				
+				
+				
