@@ -50,29 +50,28 @@ tags:
 
 - 全连接层：  
 
-`   
- 
-if self.BN == True:
-            
-            self.batch_mean = T.mean(z,axis=0)
-            self.batch_var = T.var(z,axis=0)
-            
-            if can_fit == True:
-                mean = self.batch_mean
-                var = self.batch_var
 
-            else:
-                mean = self.mean
-                var = self.var
-        
-            z = (z - mean)/(T.sqrt(var+self.BN_epsilon))
-            z = self.a * z
-        
-        self.z = z + self.b
-        
-        # activation function
-        y = self.activation(self.z)
-		`
+    if self.BN == True:
+                
+                self.batch_mean = T.mean(z,axis=0)
+                self.batch_var = T.var(z,axis=0)
+                
+                if can_fit == True:
+                    mean = self.batch_mean
+                    var = self.batch_var
+    
+                else:
+                    mean = self.mean
+                    var = self.var
+            
+                z = (z - mean)/(T.sqrt(var+self.BN_epsilon))
+                z = self.a * z
+            
+            self.z = z + self.b
+            
+            # activation function
+            y = self.activation(self.z)
+
 		
 - 卷积层：  
 
