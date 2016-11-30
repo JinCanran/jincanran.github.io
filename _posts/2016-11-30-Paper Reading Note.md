@@ -50,7 +50,8 @@ tags:
 
 - 全连接层：  
 
-` if self.BN == True:
+`  
+if self.BN == True:
             
             self.batch_mean = T.mean(z,axis=0)
             self.batch_var = T.var(z,axis=0)
@@ -69,11 +70,13 @@ tags:
         self.z = z + self.b
         
         # activation function
-        y = self.activation(self.z)`
+        y = self.activation(self.z)
+		`
 		
 - 卷积层：  
 
-`# batch normalization
+` 
+# batch normalization
         if self.BN == True:
             
             # in the convolutional case, there is only a mean per feature map and not per location
@@ -96,4 +99,5 @@ tags:
         z = z + self.b.dimshuffle('x', 0, 'x', 'x')
 
         # activation
-        y = self.activation(z)`
+        y = self.activation(z)
+		`
