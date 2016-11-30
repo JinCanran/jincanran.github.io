@@ -2,7 +2,7 @@
 layout:     post
 title:      "深度神经网络中常见的 Tricks 分析"
 subtitle:   "Paper Reading"
-date:       2016-09-30
+date:       2016-11-30
 author:     "Jin"
 header-img: "img/post-bg-2015.jpg"
 tags:
@@ -40,7 +40,7 @@ Tricks in DNN 主要在以下八个方面：
 
 ### 1. Data Augmentation
 
-为了得到好的performance，需要在大量的数据集上进行训练，如果初始的训练数据非常有限那么就需要data augmentation.
+为了得到好的performance，需要在大量的数据集上进行训练，如果初始的训练数据非常有限那么就需要data augmentation.  
 > Also, data augmentation becomes the thing must to do when training a deep network.  
 
 - There are many ways to do data augmentation, such as the popular **horizontally flipping, random crops and color jittering**. 此类方法可以结合使用
@@ -54,9 +54,10 @@ Tricks in DNN 主要在以下八个方面：
     `X -= np.mean(X, axis = 0) # zero-center`
     `X /= np.std(X, axis = 0) # normalize`
 
-2. PCA Whitening 白化（ufldl：[此处输入链接的描述][3]）  
+2. PCA Whitening 白化（ufldl：[白化][3]）  
 
-需要注意，讨论这些预处理只是为了本文的完整性，实践中这些变换不用在CNN中*（为啥？我的代码先白化过..）*
+需要注意，讨论这些预处理只是为了本文的完整性，实践中这些变换不用在CNN中*（为啥？我的代码先白化过..）*  
+
 >Please note that, we describe these pre-processing here just for completeness. In practice, these transformations are not used with Convolutional Neural Networks. However, it is also very important to zero-center the data, and it is common to see normalization of every pixel as well.  
 
 ---------------
