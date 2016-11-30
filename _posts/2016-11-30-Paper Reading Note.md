@@ -92,9 +92,8 @@ tags:
     
         z = (z - mean.dimshuffle('x', 0, 'x', 'x'))/(T.sqrt(var.dimshuffle('x', 0, 'x', 'x')+self.BN_epsilon))
         z = self.a.dimshuffle('x', 0, 'x', 'x') * z
-    
-    # bias
+    # bias  
     z = z + self.b.dimshuffle('x', 0, 'x', 'x')
     
-    # activation
+    # activation  
     y = self.activation(z)
